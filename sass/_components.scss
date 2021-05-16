@@ -174,4 +174,40 @@
     color: var(--color-grey-light-4);
     text-align: center;
     padding: 2.5rem;
+
 }
+
+// main hotel view design 
+.gallery{
+    display: flex;
+
+
+    &__photo{
+        width: 100%;
+        display: block; 
+    }
+}
+
+// overview styling 
+.overview{
+    display: flex;
+    
+
+    &__heading{}
+    &__star{
+        margin-right: auto;
+    }
+    &__icon-star,
+    &__icon-location{
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: var(--color-primary);
+    }
+    &__location{
+       flex: 1;
+    }
+    &__rating{}
+    &__rating-average{}
+    &__rating-count{}
+}
+
